@@ -1,0 +1,70 @@
+.bg {
+   background-image: url("../images/websitebg.jpg"); 
+   background-size: 100% 100%;
+}
+
+.btns {
+    width: 100%;
+    border: 2px solid black;
+    margin: 1px;
+}
+
+.fade-in {
+    animation: fadeIn 1s;
+}
+
+.fade-out {
+    animation: fadeOut 1s;
+}
+
+@keyframes fadeIn {
+    0% {opacity:0;}
+    100% {opacity:1;}
+    }
+
+@keyframes fadeOut {
+    0% {opacity:0;}
+    100% {opacity:1;}
+    }
+
+#dc {
+    height: 175px;
+}
+
+.dch {
+    padding-top: 90px;
+    font-weight: bold;
+    color: white;
+    text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+
+}
+
+.pch {
+    font-weight: bold;
+    color: white;
+    text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+
+}
+
+.summary {
+    font-weight: bold;
+    color: white;
+    text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+
+}
+
+.background {
+    height: 750px;
+    background-image: url("../images/blackjack-classic-background.jpg"); 
+    background-size: 100% 100%;
+
+}
+
+#pc {
+    display: flex;
+    align-items: center;
+}
+
+.btn {
+    width: 100%;
+}
